@@ -1,25 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Biscoito da Sorte</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&family=Dancing+Script&family=Montserrat:wght@700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="screen1">
+    <div class="screen1 hide">
       <h2>
         Qual é a sua sorte de <br />
         hoje?
       </h2>
       <p>Abra o biscoito e descubra!</p>
-      <img src="imgs/Ebene 4.svg" alt="" />
+      <a href="#">
+        <img src="imgs/Ebene 4.svg" alt="" />
+      </a>
     </div>
+
+    <screen2 class="screen2">
+      <h2>Aqui está sua sorte de hoje:</h2>
+      <div id="message">
+        <h3>#</h3>
+      </div>
+      <img src="imgs/opened-cookie.svg" alt="" />
+    </screen2>
   </body>
 </html>
